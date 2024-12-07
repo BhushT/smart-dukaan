@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="css/style5.css">
+    </head>
+    <body>
+
+        <div class="seller">
+            <h1>Seller Dashboard</h1>
+        </div>
+        <div class="dashboard">
+
+            <!-- product -->
+            <div class="product">
+
+                <div> <h3><label for="product-select" class="dropdown-label">Select Product  :</label></h3>
+                </div>
+                <div>
+                    <div class="dropdown-container">
+                        <select id="product-select" class="dropdown">
+                          <option value="" disabled selected>Choose a product</option>
+                          <option value="apparels">Apparels</option>
+                          <option value="electronics">Electronics</option>
+                          <option value="home-furniture">Home & Furniture</option>
+                          <option value="groceries">Groceries</option>
+                          <option value="beauty-products">Beauty Products</option>
+                          <option value="toys">Toys</option>
+                          <option value="sports">Sports</option>
+                          <option value="books">Books</option>
+                          <option value="automotive">Automotive</option>
+                          <option value="healthcare">Healthcare</option>
+                        </select>
+                      </div>
+                </div>
+
+            </div>
+
+            <!-- buyers -->
+            <div class="Buyers">
+
+                <div class="buyers-container">
+                    <h3 class="buyers-heading">Buyers</h3>
+                    <ul class="buyers-list">
+                      <li class="buyer-item">
+                        <span class="buyer-name">Ramesh Jadhav</span>
+                        <div class="ai-tips-box">
+                            <span> <img src="./img/bulb.webp" alt="">  </span><p class="offer-text">AI Tip: Get 10% off on your next purchase!</p>
+                           
+                        </div>
+                      </li>
+                      <li class="buyer-item">
+                        <span class="buyer-name">Devesh More</span>
+                        <div class="ai-tips-box">
+                            <span> <img src="./img/bulb.webp" alt="">  </span><p class="offer-text">AI Tip: Free shipping on orders above $50!</p>
+                        </div>
+                      </li>
+                      <li class="buyer-item">
+                        <span class="buyer-name">Sanika Maity</span>
+                        <div class="ai-tips-box">
+                            <span> <img src="./img/bulb.webp" alt="">  </span><p class="offer-text">AI Tip: Earn 2x loyalty points on your next order!</p>
+                        </div>
+                      </li>
+                      <li class="buyer-item">
+                        <span class="buyer-name">Kavya Gore</span>
+                        <div class="ai-tips-box">
+                            <span> <img src="./img/bulb.webp" alt="">  </span> <p class="offer-text">AI Tip: Buy 1 Get 1 Free on select items!</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+
+            </div>
+        </div>
+
+        <div class="dashboard">
+            <!-- Header Section -->
+            <div class="header">
+                <h1 style="font-weight: bold;color:black">Order Updates</h1>
+                <select class="filter">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+
+            <!-- Order Updates Section -->
+            <div class="order-updates">
+                <div class="card blue">
+                    <h2>67,843</h2>
+                    <p>Average Orders</p>
+                </div>
+                <div class="card green">
+                    <h2>2,342</h2>
+                    <p>Average Shipments</p>
+                </div>
+                <div class="card orange">
+                    <h2>1,584</h2>
+                    <p>Return to Origin</p>
+                </div>
+            </div>
+
+            <!-- Performance Details -->
+            <div class="performance-details">
+                <h1>Performance Details</h1>
+                <div class="performance-metrics">
+                    <div class="metric yellow">
+                        <h2>22/25</h2>
+                        <p>Calls per Hour Received</p>
+                    </div>
+                    <div class="metric green">
+                        <h2>11/22</h2>
+                        <p>Refund Initiated</p>
+                    </div>
+                    <div class="metric orange">
+                        <h2>04/22</h2>
+                        <p>Discount Initiated</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sales Details -->
+            <div class="sales-details">
+                <h1>Sales Details</h1>
+                <div class="sales-summary">
+                    <div>
+                        <span class="percentage online">77%</span> Online Sales
+                        (52)
+                    </div>
+                    <div>
+                        <span class="percentage offline">23%</span> Offline
+                        Sales (15)
+                    </div>
+                </div>
+                <div class="sales-bar">
+                    <div class="segment apparels" style="width: 25%;">25%</div>
+                    <div class="segment electronics"
+                        style="width: 24%;">24%</div>
+                    <div class="segment furniture" style="width: 30%;">30%</div>
+                    <div class="segment groceries" style="width: 11%;">11%</div>
+                    <div class="segment others" style="width: 10%;">10%</div>
+                </div>
+            </div>
+
+            <!-- Shipping Details -->
+            <div class="shipping-details">
+                <h1>Shipping Details</h1>
+                <div class="shipping-info">
+                    <div class="chart">
+                        <div class="circle out-for-delivery"></div>
+                        <div class="circle in-transit"></div>
+                        <div class="circle ready-to-ship"></div>
+                        <span class="center-text">67</span>
+                    </div>
+                    <ul>
+                        <li><span class="legend out-for-delivery"></span> Out
+                            for Delivery (32)</li>
+                        <li><span class="legend in-transit"></span> In-Transit
+                            (25)</li>
+                        <li><span class="legend ready-to-ship"></span> Ready to
+                            Ship (10)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
